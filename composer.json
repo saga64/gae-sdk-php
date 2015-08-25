@@ -1,11 +1,20 @@
-{
-  "packages": {
-    "saga64/gae-sdk-php": {
-      "version": "1.9.25",
-      "dist": {
-        "url": "https://github.com/saga64/gae-sdk-php.git",
-        "type": "git"
-      }
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "saga64/gae-sdk-php",
+            "version": "1.9.25",
+            "source": {
+                "url": "https://github.com/saga64/gae-sdk-php.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "google\\appengine\\api" : "src"
+                }
+            }
+        }
     }
-  }
-}
+]
+
