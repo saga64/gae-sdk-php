@@ -3,7 +3,7 @@
   "version": "dev-master",
   "autoload": {
       "psr-0" : {
-          "google\\appengine\\api" : "src"
+          "" : "src"
       }
   }
 }
